@@ -1,5 +1,11 @@
+.header{
+    height: 150px;
+    width: 100%;
+    background: gray;
+    border: 5px solid black;
+}
 .hero{
-    height: 600px;
+    height: 450px;
     width: 100%;
     background: red;
     border: 5px solid black;
