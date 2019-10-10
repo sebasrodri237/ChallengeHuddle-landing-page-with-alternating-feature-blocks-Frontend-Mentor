@@ -1,0 +1,30 @@
+.hero{
+    height: 600px;
+    width: 100%;
+    background: red;
+    border: 5px solid black;
+}
+.custom-information{
+    height: 1400px;
+    width: 100%;
+    background: green;
+    border: 5px solid black;
+}
+.build{
+    height: 200px;
+    width: 100%;
+    background: yellow;
+    border: 5px solid black;
+}
+.contact{
+    height: 400px;
+    width: 100%;
+    background: purple;
+    border: 5px solid black;
+}
+.footer{
+    height: 80px;
+    width: 100%;
+    background: blue;
+    border: 5px solid black;
+}
