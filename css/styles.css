@@ -1,9 +1,17 @@
 
+
 .header{
     height: 150px;
     width: 100%;
     border: 5px solid black;
     background-image: url('../images/bg-hero-desktop.svg');
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header a {
+    background-color: rgb(255, 255, 255);
 }
 .hero{
     height: 500px;
@@ -14,6 +22,9 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.hero a {
+    background-color: #FF52BF;
 }
 /*.hero-image{
     object-fit: cover;
