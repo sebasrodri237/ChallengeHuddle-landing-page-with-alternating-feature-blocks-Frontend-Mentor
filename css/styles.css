@@ -57,12 +57,26 @@ ul{
 
     list-style: none;
 }
+h1,
+a{
 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.heeader-hero{
+
+    background-image: url('../images/bg-hero-desktop.svg');
+}
 .header{
     
     height: 150px;
     width: 100%;
-    background-image: url('../images/bg-hero-desktop.svg');
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -76,20 +90,19 @@ ul{
     
     height: 500px;
     width: 100%;
-    background-image: url('../images/bg-hero-desktop.svg');
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.hero h1{
+
+    font-size: 40px;
+}
 .hero a {
     
     background-color: #FF52BF;
 }
-/*.hero-image{
-    
-    object-fit: cover;
-}*/
 .container {
     
     max-width: 1240px;
