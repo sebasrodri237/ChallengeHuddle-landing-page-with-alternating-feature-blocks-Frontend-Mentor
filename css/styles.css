@@ -72,6 +72,8 @@ p{
 .heeader-hero{
 
     background-image: url('../images/bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header{
     
@@ -84,7 +86,17 @@ p{
 }
 .header a {
     
+    
+}
+.header-url {
+    
+    color: rgb(0, 0, 0);
+    font-size: 14px;
     background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 12px 70px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 18px  #eeeeee;
 }
 .hero{
     
@@ -99,9 +111,14 @@ p{
 
     font-size: 40px;
 }
-.hero a {
+.hero-url {
     
+    color: rgb(255, 255, 255);
+    font-size: 14px;
     background-color: #FF52BF;
+    text-decoration: none;
+    padding: 18px 65px;
+    border-radius: 30px;
 }
 .container {
     
