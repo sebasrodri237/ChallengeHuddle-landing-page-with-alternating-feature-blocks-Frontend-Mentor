@@ -188,17 +188,12 @@ ul{
     align-items: center;
     text-align: left;
 }
-.contact-list-one{
-
-    
-}
 .social{
 
     width: 33%;
     display: flex;
     align-items: center;
 }
-
 .social-link{
 
     display: inline-block;
@@ -207,11 +202,17 @@ ul{
     color:inherit;
     font-size: 20px;
 }
-
 .footer{
     
     height: 80px;
     width: 100%;
-    background: blue;
-    border: 5px solid black;
+    background-color: #00252D;
+    display: inline-block;
+    align-items: center;
+    text-align: right;
+    
+}
+.attribution a{
+    text-decoration: none;
+    color: inherit;
 }
