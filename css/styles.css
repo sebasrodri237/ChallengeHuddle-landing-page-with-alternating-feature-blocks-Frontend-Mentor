@@ -58,6 +58,7 @@ ul{
     list-style: none;
 }
 h1,
+h3,
 a{
 
     font-family: 'Poppins', sans-serif;
@@ -135,19 +136,31 @@ p{
     
     height: 1400px;
     width: 100%;
-    
+    margin-top: 150px;
+}
+.information-details,
+.information-item img{
+
+    margin-left: 100px;
+}
+.information-details h3{
+
+    font-size: 25px;
+}
+.information-details p{
+
+    color: #9B9FA2;
 }
 .information-item{
 
     box-shadow: 0 0 10px #e8e8e8;
     border-radius: 15px;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 60px 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    
 }
 .build{
     
