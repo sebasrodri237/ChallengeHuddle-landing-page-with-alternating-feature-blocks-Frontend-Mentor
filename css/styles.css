@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?bp96dc');
-    src:  url('../fonts/icomoon.eot?bp96dc#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?bp96dc') format('truetype'),
-      url('../fonts/icomoon.woff?bp96dc') format('woff'),
-      url('../fonts/icomoon.svg?bp96dc#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?mu3tje');
+    src:  url('../fonts/icomoon.eot?mu3tje#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?mu3tje') format('truetype'),
+      url('../fonts/icomoon.woff?mu3tje') format('woff'),
+      url('../fonts/icomoon.svg?mu3tje#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -34,8 +34,8 @@
   .icon-mail:before {
     content: "\ea83";
   }
-  .icon-facebook2:before {
-    content: "\ea91";
+  .icon-facebook:before {
+    content: "\ea90";
   }
   .icon-instagram:before {
     content: "\ea92";
@@ -199,10 +199,12 @@ a{
     background-color: #00252D;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 90px;
 }
 .contact,.footer{
 
-    color: white;
+    color: #D4E6E8;
+    font-family: 'Open Sans', sans-serif;
 }
 .contact img{
     
@@ -212,22 +214,27 @@ a{
 
     width: 33%;
     padding-top: 100px;
-    margin: 0 auto;
+    margin-left: -50px;
 }
 .contact-location,
 .contact-phone,
 .contact-mail{
 
     display: flex;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-right: 5px;
 }
 .contact-data p{
 
-    margin: 0 0 16px 15px;
+    
+    margin: 0 0 15px 20px;
+    font-size: 16px;
+    line-height: 1.5em;
 }
-.contact-data span{
+.icon-location2{
 
     font-size: 20px;
+    margin-top: 10px;
 }
 .icon-phone{
 
@@ -239,6 +246,13 @@ a{
     display: flex;
     align-items: center;
     text-align: left;
+    font-size: 18px;
+    margin-top: 110px;
+    margin-left: 60px;
+}
+.contact-list-one{
+
+    margin-right: 90px;
 }
 .social{
 
@@ -249,10 +263,14 @@ a{
 .social-link{
 
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 15px;
     text-decoration: none;
     color:inherit;
     font-size: 20px;
+}
+.facebook{
+
+    margin-left: 172px;
 }
 .footer{
     
@@ -262,9 +280,19 @@ a{
     display: inline-block;
     align-items: center;
     text-align: right;
-    
+}
+.copyright{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-right: 80px;
+}
+.attribution{
+
+    margin-right: 80px;
 }
 .attribution a{
+
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    color: inherit;
 }
