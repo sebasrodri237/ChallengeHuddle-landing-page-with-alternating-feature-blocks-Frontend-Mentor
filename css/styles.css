@@ -310,10 +310,12 @@ a{
     .header img{
 
         width: 150px;
+        margin-left: 10px;
     }
     .header-url {
 
         padding: 10px 35px;
+        margin-right: 10px;
     }
     .hero{
 
@@ -332,6 +334,7 @@ a{
     }
     .custom-information{
 
+        height: auto;
         margin: auto;
         text-align: center;
         display: block;
@@ -345,10 +348,79 @@ a{
     .information-item{
 
         width: 80%;
+        margin: 0px auto 30px auto;
     }
     .information-item img{
 
         margin-left: auto;
         width: 100%;
     }
+    .build{
+    
+        width: 95%;
+        height: 200px;
+    }
+    .build h1{
+
+        font-size: 1.1em;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .build a{
+
+        font-size: 0.8em;
+        padding: 15px 40px;
+    }
+    .contact{
+
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .contact img{
+
+        margin-bottom: 0;
+    }
+    .contact-data{
+
+        margin: auto;
+        width: 100%;
+    }
+    .contact-data p{
+
+        font-size: 1em;
+        text-align: left;
+    }
+    .contact-data span{
+
+        font-size: 1.2em;
+        margin-left: 10px;
+    }
+    .contact-info{
+        
+        display: block; 
+        width: 100%;
+        margin: 40px 0px 60px 10px;
+    }
+    .contact-info ul{
+        
+        padding: 0;
+    }
+    .social{
+        
+        width: 100%;
+    }
+    .facebook{
+
+        margin-left: 120px;
+    }
+    .footer{
+
+        width: 100%;
+    }
+    .copyright{
+
+        margin-top: 15px;
+    }
+    
 }
