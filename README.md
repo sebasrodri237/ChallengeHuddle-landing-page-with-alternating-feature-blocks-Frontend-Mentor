@@ -1,4 +1,4 @@
-# Frontend Mentor - Huddle landing page with alternating feature blocks
+# Frontend Mentor - Huddle landing page with alternating feature blocks. Solution by Sebastian Rodriguez Ardila from Colombia.
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
 
